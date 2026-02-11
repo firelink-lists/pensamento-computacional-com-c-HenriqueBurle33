@@ -15,12 +15,15 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
     string nome;
-    
+
     // TODO: Leia o nome do usuário
-    
+
     // TODO: Exiba a saudação personalizada
-    
+    cin >> nome;
+    cout << "ola," << nome << "!";
+
     return 0;
 }
